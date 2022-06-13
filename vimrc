@@ -43,6 +43,7 @@ Plugin 'lervag/vimtex'
 Plugin 'godlygeek/tabular'
 " Gruvbox
 Plugin 'morhetz/gruvbox'
+Plugin 'preservim/vimux'
 " Auto pairs
 Plugin 'jiangmiao/auto-pairs'
 " Coc neovim
