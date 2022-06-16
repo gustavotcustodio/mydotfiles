@@ -1,0 +1,9 @@
+id_rsa
+known_hosts*
+authorized_keys
+.gpg-id
+.password-store
+newsboat/cache.db
+newsboat/history.cmdline
+newsboat/history.search
+newsboat/urls
