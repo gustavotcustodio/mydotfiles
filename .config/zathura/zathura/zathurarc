@@ -1,0 +1,3 @@
+set sandbox none
+map <C-i> recolor
+set selection-clipboard clipboard

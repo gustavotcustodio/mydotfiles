@@ -1,0 +1,4 @@
+15 */3 * * * yes | cp ~/.password-store/* ~/SharedPhone/password-store
+15 */3 * * * yes | cp ~/.password-store/* ~/mydotfiles/password-store
+20 */6 * * * yes | cp /var/spool/cron/gustavo ~/mydotfiles/cronjobs
+*/15 * * * * /usr/bin/newsboat -x reload

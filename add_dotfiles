@@ -1,0 +1,19 @@
+#!/bin/sh
+mkdir .config
+cp -r "$HOME/.newsboat" "."
+cp -r "$HOME/.config/coc" ".config/coc"
+cp -r "$HOME/.config/gtk-3.0" ".config/gtk-3.0"
+cp -r "$HOME/.config/hypr" ".config/hypr"
+cp -r "$HOME/.config/kitty" ".config/kitty"
+cp -r "$HOME/.config/lf" ".config/lf"
+cp -r "$HOME/.config/mpv" ".config/mpv"
+cp -r "$HOME/.config/nvim" ".config/nvim"
+cp -r "$HOME/.config/zathura" ".config/zathura"
+cp -r "$HOME/.ssh" "."
+cp -r "$HOME/.vim" "."
+cp -r "$HOME/.zsh" "."
+cp "$HOME/.alacritty.yml" .
+cp "$HOME/.xprofile" .
+cp "$HOME/.tmux.conf" .
+cp "$HOME/.vimrc" .
+cp "$HOME/.zshrc" .
