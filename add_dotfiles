@@ -1,6 +1,7 @@
 #!/bin/sh
 mkdir .config
 cp -r "$HOME/.newsboat" "."
+cp -r "$HOME/.password-store" "."
 cp -r "$HOME/.config/coc" ".config/coc"
 cp -r "$HOME/.config/gtk-3.0" ".config/gtk-3.0"
 cp -r "$HOME/.config/hypr" ".config/hypr"
