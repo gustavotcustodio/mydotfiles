@@ -1,9 +1,9 @@
-[01:59:41.555][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:66]: Lua Lsp startup, root: 	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server
-[01:59:41.556][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:67]: ROOT:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server
-[01:59:41.556][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: LOGPATH:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/log
-[01:59:41.556][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: METAPATH:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta
-[01:59:41.557][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: VERSION:	3.7.0
-[01:59:41.671][info] [#0:script/service/service.lua:144]: 
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:66]: Lua Lsp startup, root: 	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:67]: ROOT:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: LOGPATH:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/log
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: METAPATH:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: VERSION:	3.7.0
+[23:06:41.478][info] [#0:script/service/service.lua:144]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.140 MB
@@ -25,7 +25,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[01:59:41.716][info] [#0:script/client.lua:657]: Client init	{
+[23:06:41.586][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     general = {
       markdown = {
@@ -308,23 +308,23 @@
     changeConfiguration = true
   },
   locale = "en_US",
-  processId = 455609,
+  processId = 221009,
   rootPath = "/home/gustavo/Documents/lua/game",
   rootUri = "file:///home/gustavo/Documents/lua/game",
   trace = "off",
-  workDoneToken = "4ff2a721-d003-4fca-9a26-bfe633be56f3",
+  workDoneToken = "d41d2dc0-edc7-4f4b-9ce7-83e8141b8618",
   workspaceFolders = { {
       name = "game",
       uri = "file:///home/gustavo/Documents/lua/game"
     } }
 }
-[01:59:41.718][info] [#0:script/language.lua:137]: VSC language: en_US
-[01:59:41.718][info] [#0:script/language.lua:138]: LS  language: en-us
-[01:59:41.718][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/gustavo/Documents/lua/game
-[01:59:41.718][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_home_gustavo_Documents_lua_game.log
-[01:59:41.721][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/gustavo/Documents/lua/game
-[01:59:41.835][info] [#0:script/provider/provider.lua:46]: Load config from client	file:///home/gustavo/Documents/lua/game
-[01:59:41.836][info] [#0:script/provider/provider.lua:47]: {
+[23:06:41.587][info] [#0:script/language.lua:137]: VSC language: en_US
+[23:06:41.587][info] [#0:script/language.lua:138]: LS  language: en-us
+[23:06:41.587][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/gustavo/Documents/lua/game
+[23:06:41.587][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_home_gustavo_Documents_lua_game.log
+[23:06:41.587][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/gustavo/Documents/lua/game
+[23:06:41.791][info] [#0:script/provider/provider.lua:46]: Load config from client	file:///home/gustavo/Documents/lua/game
+[23:06:41.793][info] [#0:script/provider/provider.lua:47]: {
   Lua = {
     addonManager = {
       enable = true
@@ -432,9 +432,9 @@
     }
   }
 }
-[01:59:41.936][info] [#0:script/provider/completion.lua:43]: Enable completion.
-[01:59:41.937][info] [#0:script/provider/provider.lua:61]: Load config from client	fallback
-[01:59:41.939][info] [#0:script/provider/provider.lua:62]: {
+[23:06:41.894][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[23:06:41.896][info] [#0:script/provider/provider.lua:61]: Load config from client	fallback
+[23:06:41.898][info] [#0:script/provider/provider.lua:62]: {
   Lua = {
     addonManager = {
       enable = true
@@ -542,377 +542,816 @@
     }
   }
 }
-[01:59:42.143][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game
-[01:59:42.264][info] [#0:script/plugin.lua:86]: plugin path:	/home/gustavo/Documents/lua/game
-[01:59:42.264][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/gustavo/Documents/lua/game
-[01:59:42.264][info] [#0:script/library.lua:212]: Init builtin library at:	nil
-[01:59:42.388][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/gustavo/Documents/lua/game
-[01:59:42.413][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/gustavo/Documents/lua/game
-[01:59:42.419][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
-[01:59:42.432][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[01:59:42.433][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
-[01:59:42.434][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
-[01:59:42.434][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
-[01:59:42.435][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[01:59:42.436][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
-[01:59:42.436][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
-[01:59:42.437][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
-[01:59:42.437][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[01:59:42.437][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[01:59:42.437][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
-[01:59:42.438][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[01:59:42.438][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
-[01:59:42.438][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[01:59:42.438][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
-[01:59:42.438][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[01:59:42.439][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
-[01:59:42.440][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
-[01:59:42.441][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
-[01:59:42.442][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[01:59:42.443][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[01:59:42.443][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[01:59:42.544][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
-[01:59:42.544][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	<fallback>
-[01:59:42.546][info] [#0:script/workspace/workspace.lua:379]: Found 14 files at:	file:///home/gustavo/Documents/lua/game
-[01:59:42.546][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game
-[01:59:42.547][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:42.648][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
-[01:59:42.680][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[01:59:42.680][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
-[01:59:42.684][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[01:59:42.684][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[01:59:42.684][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[01:59:42.684][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
-[01:59:42.688][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[01:59:42.688][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[01:59:42.688][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.341 KB
-[01:59:42.716][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
-[01:59:42.716][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.509 KB
-[01:59:42.729][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
-[01:59:42.729][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
-[01:59:42.729][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
-[01:59:42.729][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.230 KB
-[01:59:42.737][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
-[01:59:42.737][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
-[01:59:42.737][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
-[01:59:42.750][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[01:59:42.750][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[01:59:42.750][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
-[01:59:42.752][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
-[01:59:42.752][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
-[01:59:42.752][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
-[01:59:42.762][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
-[01:59:42.762][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
-[01:59:42.762][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.600 KB
-[01:59:42.779][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
-[01:59:42.779][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.336 KB
-[01:59:42.797][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[01:59:42.798][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
-[01:59:42.798][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/map.lua , size = 0.243 KB
-[01:59:42.798][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[01:59:42.798][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/main.lua , size = 0.440 KB
-[01:59:42.900][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.149] sec: <fallback>
-[01:59:42.900][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: <fallback>
-[01:59:42.900][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	<fallback>
-[01:59:42.900][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
-[01:59:42.987][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.190] sec: file:///home/gustavo/Documents/lua/game
-[01:59:42.988][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game
-[01:59:42.989][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game
-[01:59:42.989][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/gustavo/Documents/lua/game
-[01:59:43.026][warn] [#0:script/proto/proto.lua:138]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
-[01:59:43.026][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[14]
-[01:59:43.032][warn] [#0:script/proto/proto.lua:138]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
-[01:59:43.060][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/main.lua	${3rd}/love2d/library	{}
-[01:59:43.061][info] [#0:script/client.lua:132]: requestMessage	Info	Do you need to configure your work environment as `LÖVE`?
-[01:59:43.061][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/map.lua	${3rd}/love2d/library	{}
-[01:59:43.061][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/character.lua	${3rd}/love2d/library	{}
-[01:59:43.146][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.099] sec.
-[01:59:44.349][info] [#0:script/client.lua:138]: responseMessage	Do you need to configure your work environment as `LÖVE`?	Apply and modify settings
-[01:59:44.351][info] [#0:script/client.lua:548]: Modify config	{ {
+[23:06:42.101][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game
+[23:06:42.162][info] [#0:script/plugin.lua:86]: plugin path:	/home/gustavo/Documents/lua/game
+[23:06:42.162][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/gustavo/Documents/lua/game
+[23:06:42.162][info] [#0:script/library.lua:212]: Init builtin library at:	nil
+[23:06:42.276][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/gustavo/Documents/lua/game
+[23:06:42.289][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/gustavo/Documents/lua/game
+[23:06:42.293][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
+[23:06:42.302][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[23:06:42.302][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[23:06:42.303][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[23:06:42.303][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[23:06:42.304][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[23:06:42.304][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[23:06:42.304][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[23:06:42.305][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[23:06:42.305][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[23:06:42.306][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[23:06:42.306][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[23:06:42.307][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[23:06:42.307][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[23:06:42.307][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[23:06:42.308][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[23:06:42.308][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[23:06:42.309][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[23:06:42.309][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[23:06:42.309][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[23:06:42.310][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[23:06:42.310][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[23:06:42.310][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[23:06:42.411][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
+[23:06:42.411][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	<fallback>
+[23:06:42.411][info] [#0:script/workspace/workspace.lua:379]: Found 23 files at:	file:///home/gustavo/Documents/lua/game
+[23:06:42.411][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game
+[23:06:42.414][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:06:42.515][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
+[23:06:42.527][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[23:06:42.527][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[23:06:42.530][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[23:06:42.530][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[23:06:42.531][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[23:06:42.540][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[23:06:42.541][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[23:06:42.541][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.341 KB
+[23:06:42.552][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[23:06:42.552][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[23:06:42.552][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[23:06:42.552][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.509 KB
+[23:06:42.560][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[23:06:42.560][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[23:06:42.560][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.230 KB
+[23:06:42.568][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[23:06:42.568][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[23:06:42.568][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[23:06:42.574][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[23:06:42.574][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[23:06:42.574][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[23:06:42.576][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[23:06:42.576][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[23:06:42.576][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[23:06:42.580][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[23:06:42.580][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[23:06:42.580][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.600 KB
+[23:06:42.589][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[23:06:42.589][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[23:06:42.589][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.336 KB
+[23:06:42.599][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[23:06:42.599][info] [#0:script/workspace/loading.lua:98]: Skip loaded file: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[23:06:42.599][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/map.lua , size = 0.229 KB
+[23:06:42.601][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/windfield/mlib/mlib.lua , size = 39.703 KB
+[23:06:42.634][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/atlas.lua , size = 4.272 KB
+[23:06:42.638][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/windfield/init.lua , size = 38.294 KB
+[23:06:42.669][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/utils.lua , size = 4.756 KB
+[23:06:42.684][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/graphics.lua , size = 2.046 KB
+[23:06:42.686][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/plugins/bump.lua , size = 5.642 KB
+[23:06:42.690][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/init.lua , size = 43.373 KB
+[23:06:42.723][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/character.lua , size = 3.604 KB
+[23:06:42.726][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/plugins/box2d.lua , size = 9.507 KB
+[23:06:42.734][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/assets/maps/gamemap.lua , size = 2.318 KB
+[23:06:42.836][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.239] sec: <fallback>
+[23:06:42.836][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: <fallback>
+[23:06:42.836][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	<fallback>
+[23:06:42.836][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
+[23:06:42.859][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.261] sec: file:///home/gustavo/Documents/lua/game
+[23:06:42.859][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game
+[23:06:42.859][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game
+[23:06:42.859][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/gustavo/Documents/lua/game
+[23:06:42.871][warn] [#0:script/proto/proto.lua:138]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[23:06:42.871][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[23]
+[23:06:42.872][warn] [#0:script/proto/proto.lua:138]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[23:06:42.998][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/character.lua	${3rd}/love2d/library	{}
+[23:06:42.998][info] [#0:script/client.lua:132]: requestMessage	Info	Do you need to configure your work environment as `LÖVE`?
+[23:06:42.999][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/libraries/sti/atlas.lua	${3rd}/love2d/library	{}
+[23:06:42.999][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/libraries/sti/graphics.lua	${3rd}/love2d/library	{}
+[23:06:42.999][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/libraries/sti/init.lua	${3rd}/love2d/library	{}
+[23:06:42.999][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/libraries/sti/plugins/box2d.lua	${3rd}/love2d/library	{}
+[23:06:42.999][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/libraries/sti/utils.lua	${3rd}/love2d/library	{}
+[23:06:42.999][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/libraries/windfield/init.lua	${3rd}/love2d/library	{}
+[23:06:43.000][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/map.lua	${3rd}/love2d/library	{}
+[23:06:43.000][info] [#0:script/library.lua:546]: Found 3rd library by word: 	()love%.%w+()	file:///home/gustavo/Documents/lua/game/main.lua	${3rd}/love2d/library	{}
+[23:06:43.460][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.587] sec.
+[23:06:44.706][info] [#0:script/client.lua:138]: responseMessage	Do you need to configure your work environment as `LÖVE`?	Apply and modify settings
+[23:06:44.707][info] [#0:script/client.lua:548]: Modify config	{ {
     action = "set",
     key = "Lua.runtime.version",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "LuaJIT"
   }, {
     action = "prop",
     key = "Lua.runtime.special",
     prop = "love.filesystem.load",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "loadfile"
   }, {
     action = "add",
     key = "Lua.workspace.library",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "${3rd}/love2d/library"
   } }
-[01:59:44.352][info] [#0:script/client.lua:481]: tryModifyClientGlobal	{ {
+[23:06:44.707][info] [#0:script/client.lua:481]: tryModifyClientGlobal	{ {
     action = "set",
     key = "Lua.runtime.version",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "LuaJIT"
   }, {
     action = "prop",
     key = "Lua.runtime.special",
     prop = "love.filesystem.load",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "loadfile"
   }, {
     action = "add",
     key = "Lua.workspace.library",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "${3rd}/love2d/library"
   } }
-[01:59:44.352][info] [#0:script/client.lua:493]: No global changes
-[01:59:44.352][info] [#0:script/client.lua:379]: tryModifySpecifiedConfig	file:///home/gustavo/Documents/lua/game	{ {
+[23:06:44.707][info] [#0:script/client.lua:493]: No global changes
+[23:06:44.707][info] [#0:script/client.lua:379]: tryModifySpecifiedConfig	file:///home/gustavo/Documents/lua/game	{ {
     action = "set",
     key = "Lua.runtime.version",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "LuaJIT"
   }, {
     action = "prop",
     key = "Lua.runtime.special",
     prop = "love.filesystem.load",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "loadfile"
   }, {
     action = "add",
     key = "Lua.workspace.library",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "${3rd}/love2d/library"
   } }
-[01:59:44.352][info] [#0:script/client.lua:383]: lastLocalType ~= json
-[01:59:44.353][info] [#0:script/client.lua:411]: tryModifyRC	file:///home/gustavo/Documents/lua/game	{ {
+[23:06:44.708][info] [#0:script/client.lua:383]: lastLocalType ~= json
+[23:06:44.708][info] [#0:script/client.lua:411]: tryModifyRC	file:///home/gustavo/Documents/lua/game	{ {
     action = "set",
     key = "Lua.runtime.version",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "LuaJIT"
   }, {
     action = "prop",
     key = "Lua.runtime.special",
     prop = "love.filesystem.load",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "loadfile"
   }, {
     action = "add",
     key = "Lua.workspace.library",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "${3rd}/love2d/library"
   } }
-[01:59:44.355][info] [#0:script/client.lua:425]: Can not load .luarc.json and not create
-[01:59:44.360][info] [#0:script/client.lua:451]: tryModifyClient	file:///home/gustavo/Documents/lua/game	{ {
+[23:06:44.708][info] [#0:script/client.lua:425]: Can not load .luarc.json and not create
+[23:06:44.709][info] [#0:script/client.lua:451]: tryModifyClient	file:///home/gustavo/Documents/lua/game	{ {
     action = "set",
     key = "Lua.runtime.version",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "LuaJIT"
   }, {
     action = "prop",
     key = "Lua.runtime.special",
     prop = "love.filesystem.load",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "loadfile"
   }, {
     action = "add",
     key = "Lua.workspace.library",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "${3rd}/love2d/library"
   } }
-[01:59:44.361][info] [#0:script/client.lua:471]: Apply client changes	file:///home/gustavo/Documents/lua/game	{ {
+[23:06:44.709][info] [#0:script/client.lua:471]: Apply client changes	file:///home/gustavo/Documents/lua/game	{ {
     action = "set",
     key = "Lua.runtime.version",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "LuaJIT"
   }, {
     action = "prop",
     key = "Lua.runtime.special",
     prop = "love.filesystem.load",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "loadfile"
   }, {
     action = "add",
     key = "Lua.workspace.library",
-    uri = "file:///home/gustavo/Documents/lua/game/main.lua",
+    uri = "file:///home/gustavo/Documents/lua/game/character.lua",
     value = "${3rd}/love2d/library"
   } }
-[01:59:44.471][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game/main.lua
-[01:59:44.550][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game/main.lua
-[01:59:44.583][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game/main.lua
-[01:59:44.632][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/main.lua
-[01:59:44.633][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/map.lua
-[01:59:44.633][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game
-[01:59:44.651][info] [#0:script/plugin.lua:86]: plugin path:	/home/gustavo/Documents/lua/game
-[01:59:44.651][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/gustavo/Documents/lua/game
-[01:59:44.796][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/gustavo/Documents/lua/game
-[01:59:44.825][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/gustavo/Documents/lua/game
-[01:59:44.833][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/package.lua
-[01:59:44.834][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/os.lua
-[01:59:44.835][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/clear.lua
-[01:59:44.836][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/builtin.lua
-[01:59:44.836][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/io.lua
-[01:59:44.837][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/debug.lua
-[01:59:44.838][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/math.lua
-[01:59:44.839][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/bit.lua
-[01:59:44.840][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string/buffer.lua
-[01:59:44.841][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:44.880][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/profile.lua
-[01:59:44.881][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string.lua
-[01:59:44.881][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/new.lua
-[01:59:44.882][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/ffi.lua
-[01:59:44.882][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/basic.lua
-[01:59:44.883][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table.lua
-[01:59:44.883][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/coroutine.lua
-[01:59:44.884][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit.lua
-[01:59:44.884][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/util.lua
-[01:59:44.985][info] [#0:script/workspace/workspace.lua:379]: Found 41 files at:	file:///home/gustavo/Documents/lua/game
-[01:59:44.985][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game
-[01:59:44.985][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/util.lua , size = 1.984 KB
-[01:59:45.029][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/util.lua
-[01:59:45.030][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit.lua , size = 0.884 KB
-[01:59:45.033][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit.lua
-[01:59:45.034][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/coroutine.lua , size = 2.541 KB
-[01:59:45.042][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/coroutine.lua
-[01:59:45.043][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table.lua , size = 4.230 KB
-[01:59:45.049][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table.lua
-[01:59:45.050][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/ffi.lua , size = 2.529 KB
-[01:59:45.056][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/ffi.lua
-[01:59:45.057][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/basic.lua , size = 14.989 KB
-[01:59:45.077][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/basic.lua
-[01:59:45.077][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/new.lua , size = 0.642 KB
-[01:59:45.078][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/new.lua
-[01:59:45.078][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/profile.lua , size = 0.348 KB
-[01:59:45.079][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/profile.lua
-[01:59:45.079][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string.lua , size = 6.323 KB
-[01:59:45.083][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string.lua
-[01:59:45.083][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love.lua , size = 10.825 KB
-[01:59:45.093][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.093][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/data.lua , size = 9.649 KB
-[01:59:45.109][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.109][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/timer.lua , size = 1.727 KB
-[01:59:45.112][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.112][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/font.lua , size = 7.587 KB
-[01:59:45.118][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.118][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/touch.lua , size = 1.456 KB
-[01:59:45.121][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.121][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/math.lua , size = 31.028 KB
-[01:59:45.150][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.150][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/system.lua , size = 3.604 KB
-[01:59:45.163][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.163][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/keyboard.lua , size = 22.717 KB
-[01:59:45.179][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.179][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/event.lua , size = 4.563 KB
-[01:59:45.182][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.182][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/sound.lua , size = 5.808 KB
-[01:59:45.186][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.186][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/physics.lua , size = 109.736 KB
-[01:59:45.298][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.298][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/filesystem.lua , size = 22.718 KB
-[01:59:45.318][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.318][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/mouse.lua , size = 8.759 KB
-[01:59:45.326][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.327][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/audio.lua , size = 33.680 KB
-[01:59:45.366][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.366][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/window.lua , size = 17.922 KB
-[01:59:45.380][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.380][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/thread.lua , size = 7.104 KB
-[01:59:45.384][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.384][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/video.lua , size = 2.342 KB
-[01:59:45.388][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.389][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/image.lua , size = 21.299 KB
-[01:59:45.400][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.400][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/joystick.lua , size = 14.190 KB
-[01:59:45.413][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.413][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string/buffer.lua , size = 18.123 KB
-[01:59:45.418][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string/buffer.lua
-[01:59:45.418][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/bit.lua , size = 1.320 KB
-[01:59:45.423][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/bit.lua
-[01:59:45.423][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/math.lua , size = 7.949 KB
-[01:59:45.433][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/math.lua
-[01:59:45.433][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/graphics.lua , size = 158.601 KB
-[01:59:45.600][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
-[01:59:45.628][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/debug.lua , size = 7.310 KB
-[01:59:45.635][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/debug.lua
-[01:59:45.635][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/builtin.lua , size = 0.302 KB
-[01:59:45.638][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/builtin.lua
-[01:59:45.638][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/io.lua , size = 6.364 KB
-[01:59:45.649][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/io.lua
-[01:59:45.649][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/clear.lua , size = 0.797 KB
-[01:59:45.649][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/clear.lua
-[01:59:45.649][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/os.lua , size = 5.600 KB
-[01:59:45.658][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/os.lua
-[01:59:45.658][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/package.lua , size = 2.699 KB
-[01:59:45.661][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/package.lua
-[01:59:45.661][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/map.lua , size = 0.243 KB
-[01:59:45.662][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:45.662][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/main.lua , size = 0.440 KB
-[01:59:45.664][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.677] sec: file:///home/gustavo/Documents/lua/game
-[01:59:45.664][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game
-[01:59:45.664][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game
-[01:59:45.664][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/gustavo/Documents/lua/game
-[01:59:45.664][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[01:59:45.665][warn] [#0:script/proto/proto.lua:138]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
-[01:59:45.742][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:45.764][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.097] sec.
-[01:59:52.025][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:52.729][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:52.730][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:52.730][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:52.730][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:52.730][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:52.730][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
-[01:59:56.815][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[01:59:56.870][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.047] sec.
-[02:00:30.787][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:30.787][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:30.787][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:30.787][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:30.787][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:30.787][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:34.822][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[02:00:34.920][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.091] sec.
-[02:00:43.761][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:43.762][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:43.762][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:43.763][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.001] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:43.763][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:43.763][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:00:47.724][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[02:00:47.837][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.104] sec.
-[02:01:00.748][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:00.748][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:00.748][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:00.748][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:00.748][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:00.748][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:04.832][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[02:01:04.934][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.101] sec.
-[02:01:30.830][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:30.831][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:30.831][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:30.832][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.001] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:30.832][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:30.832][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:33.637][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[02:01:33.757][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.115] sec.
-[02:01:40.741][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:40.753][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:40.753][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:40.754][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:40.754][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:40.754][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:44.536][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[02:01:44.643][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.104] sec.
-[02:01:47.744][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:47.744][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:47.744][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:47.744][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:47.744][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:47.744][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:01:51.837][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[02:01:51.958][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.121] sec.
-[02:02:01.802][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:02:01.803][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:02:01.803][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
-[02:02:01.803][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:02:01.803][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
-[02:02:01.803][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
-[02:02:05.839][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[41]
-[02:02:05.905][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.066] sec.
+[23:06:44.719][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:06:44.750][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:06:44.762][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:06:44.877][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/libraries/windfield/mlib/mlib.lua
+[23:06:44.878][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/libraries/sti/utils.lua
+[23:06:44.880][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/character.lua
+[23:06:44.882][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/libraries/windfield/init.lua
+[23:06:44.884][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/libraries/sti/init.lua
+[23:06:44.884][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/libraries/sti/atlas.lua
+[23:06:44.885][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/libraries/sti/plugins/box2d.lua
+[23:06:44.885][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/map.lua
+[23:06:44.885][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/gustavo/Documents/lua/game
+[23:06:44.933][info] [#0:script/plugin.lua:86]: plugin path:	/home/gustavo/Documents/lua/game
+[23:06:44.933][warn] [#0:script/plugin.lua:101]: plugin not found:	/home/gustavo/Documents/lua/game
+[23:06:45.045][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/gustavo/Documents/lua/game
+[23:06:45.051][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/gustavo/Documents/lua/game
+[23:06:45.055][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/package.lua
+[23:06:45.055][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/os.lua
+[23:06:45.055][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/clear.lua
+[23:06:45.056][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/builtin.lua
+[23:06:45.056][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/io.lua
+[23:06:45.056][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/debug.lua
+[23:06:45.056][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/math.lua
+[23:06:45.056][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/bit.lua
+[23:06:45.056][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string/buffer.lua
+[23:06:45.057][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.060][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/profile.lua
+[23:06:45.060][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string.lua
+[23:06:45.060][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/new.lua
+[23:06:45.060][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/ffi.lua
+[23:06:45.060][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/basic.lua
+[23:06:45.060][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table.lua
+[23:06:45.061][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/coroutine.lua
+[23:06:45.061][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit.lua
+[23:06:45.061][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/util.lua
+[23:06:45.162][info] [#0:script/workspace/workspace.lua:379]: Found 50 files at:	file:///home/gustavo/Documents/lua/game
+[23:06:45.162][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game
+[23:06:45.163][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/util.lua , size = 1.984 KB
+[23:06:45.176][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/util.lua
+[23:06:45.176][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit.lua , size = 0.884 KB
+[23:06:45.181][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit.lua
+[23:06:45.181][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/coroutine.lua , size = 2.541 KB
+[23:06:45.188][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/coroutine.lua
+[23:06:45.188][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table.lua , size = 4.230 KB
+[23:06:45.196][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table.lua
+[23:06:45.196][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/basic.lua , size = 14.989 KB
+[23:06:45.207][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/basic.lua
+[23:06:45.207][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/ffi.lua , size = 2.529 KB
+[23:06:45.211][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/ffi.lua
+[23:06:45.211][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/new.lua , size = 0.642 KB
+[23:06:45.212][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/new.lua
+[23:06:45.212][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string.lua , size = 6.323 KB
+[23:06:45.216][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string.lua
+[23:06:45.216][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/profile.lua , size = 0.348 KB
+[23:06:45.217][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/jit/profile.lua
+[23:06:45.217][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/timer.lua , size = 1.727 KB
+[23:06:45.219][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.219][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love.lua , size = 10.825 KB
+[23:06:45.252][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.252][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/data.lua , size = 9.649 KB
+[23:06:45.258][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.258][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/font.lua , size = 7.587 KB
+[23:06:45.265][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.265][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/math.lua , size = 31.028 KB
+[23:06:45.283][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.283][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/touch.lua , size = 1.456 KB
+[23:06:45.292][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.293][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/system.lua , size = 3.604 KB
+[23:06:45.294][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.294][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/keyboard.lua , size = 22.717 KB
+[23:06:45.304][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.304][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/event.lua , size = 4.563 KB
+[23:06:45.307][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.307][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/sound.lua , size = 5.808 KB
+[23:06:45.310][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.310][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/filesystem.lua , size = 22.718 KB
+[23:06:45.321][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.321][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/audio.lua , size = 33.680 KB
+[23:06:45.349][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.349][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/physics.lua , size = 109.736 KB
+[23:06:45.428][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.428][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/mouse.lua , size = 8.759 KB
+[23:06:45.435][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.435][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/window.lua , size = 17.922 KB
+[23:06:45.443][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.443][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/thread.lua , size = 7.104 KB
+[23:06:45.447][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.448][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/video.lua , size = 2.342 KB
+[23:06:45.450][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.450][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/image.lua , size = 21.299 KB
+[23:06:45.458][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.458][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/joystick.lua , size = 14.190 KB
+[23:06:45.465][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.465][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string/buffer.lua , size = 18.123 KB
+[23:06:45.470][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/string/buffer.lua
+[23:06:45.470][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library/love/graphics.lua , size = 158.601 KB
+[23:06:45.566][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/3rd/love2d/library
+[23:06:45.567][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/bit.lua , size = 1.320 KB
+[23:06:45.569][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/bit.lua
+[23:06:45.569][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/math.lua , size = 7.949 KB
+[23:06:45.574][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/math.lua
+[23:06:45.574][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/debug.lua , size = 7.310 KB
+[23:06:45.579][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/debug.lua
+[23:06:45.579][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/io.lua , size = 6.364 KB
+[23:06:45.585][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/io.lua
+[23:06:45.585][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/clear.lua , size = 0.797 KB
+[23:06:45.586][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/table/clear.lua
+[23:06:45.586][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[23:06:45.586][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/builtin.lua
+[23:06:45.586][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/os.lua , size = 5.600 KB
+[23:06:45.590][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/os.lua
+[23:06:45.590][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:06:45.590][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/package.lua , size = 2.699 KB
+[23:06:45.592][info] [#0:script/workspace/loading.lua:113]: ++++As library of:	file:///home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta/LuaJIT%20en-us%20utf8/package.lua
+[23:06:45.592][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/map.lua , size = 0.229 KB
+[23:06:45.593][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/windfield/mlib/mlib.lua , size = 39.703 KB
+[23:06:45.625][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/windfield/init.lua , size = 38.294 KB
+[23:06:45.655][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/atlas.lua , size = 4.272 KB
+[23:06:45.659][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/utils.lua , size = 4.756 KB
+[23:06:45.666][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/graphics.lua , size = 2.046 KB
+[23:06:45.667][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/plugins/bump.lua , size = 5.642 KB
+[23:06:45.671][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/plugins/box2d.lua , size = 9.507 KB
+[23:06:45.678][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/character.lua , size = 3.604 KB
+[23:06:45.707][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/assets/maps/gamemap.lua , size = 2.318 KB
+[23:06:45.709][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/libraries/sti/init.lua , size = 43.373 KB
+[23:06:45.743][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.582] sec: file:///home/gustavo/Documents/lua/game
+[23:06:45.743][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game
+[23:06:45.743][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game
+[23:06:45.743][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/gustavo/Documents/lua/game
+[23:06:45.743][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[50]
+[23:06:45.762][warn] [#0:script/proto/proto.lua:138]: Response of [workspace/diagnostic/refresh] error [-32601]: Unhandled method workspace/diagnostic/refresh
+[23:06:46.415][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.671] sec.
+[23:12:06.585][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:06.586][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:06.586][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:06.586][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:06.586][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:06.586][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:10.284][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[50]
+[23:12:10.846][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.563] sec.
+[23:12:25.637][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:25.638][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:25.638][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:25.639][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.001] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:25.639][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:25.639][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:12:28.589][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[50]
+[23:12:29.125][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.536] sec.
+[23:14:37.672][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:14:37.672][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:14:37.672][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:14:37.672][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:14:37.672][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:14:37.672][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:14:41.724][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[50]
+[23:14:42.276][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.550] sec.
+[23:16:41.655][info] [#0:script/service/service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 41.326 MB
+        # 00 : 40.737 MB
+        # 01 : 0.052 MB
+        # 02 : 0.136 MB
+        # 03 : 0.319 MB
+        # 04 : 0.082 MB
+    --------------- Coroutine ---------------
+        Total:     3
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      3
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[23:17:09.668][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:09.668][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:09.668][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:09.669][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:09.669][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:09.669][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:12.065][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:17:12.567][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:17:13.156][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.588] sec.
+[23:17:15.731][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:15.732][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:15.732][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:15.732][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:15.732][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:15.732][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:19.765][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:17:20.338][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.572] sec.
+[23:17:26.700][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:26.701][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:26.701][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:26.701][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:26.701][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:26.701][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:30.767][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:17:31.329][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.562] sec.
+[23:17:58.731][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:58.731][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:58.732][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:58.732][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:58.732][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:17:58.732][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:02.775][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:18:03.360][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.577] sec.
+[23:18:33.687][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:33.689][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:33.689][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:33.689][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:33.689][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:33.689][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:36.487][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:18:37.061][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.573] sec.
+[23:18:38.685][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:38.686][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:38.686][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:38.686][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:38.686][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:38.686][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:18:42.786][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:18:43.359][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.565] sec.
+[23:24:14.813][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:14.814][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:14.814][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:14.814][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:14.814][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:14.814][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:17.777][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:24:18.357][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.579] sec.
+[23:24:25.010][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/character.lua
+[23:24:25.836][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:24:25.836][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:24:25.836][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
+[23:24:25.836][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:24:25.836][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:24:25.836][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:24:29.277][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:24:29.821][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.543] sec.
+[23:24:38.854][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:38.855][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:38.855][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:38.855][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:38.855][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:38.855][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:24:42.778][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:24:43.493][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.706] sec.
+[23:26:41.803][info] [#0:script/service/service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 41.392 MB
+        # 00 : 40.803 MB
+        # 01 : 0.052 MB
+        # 02 : 0.136 MB
+        # 03 : 0.319 MB
+        # 04 : 0.082 MB
+    --------------- Coroutine ---------------
+        Total:     3
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      3
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[23:28:50.873][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:28:50.874][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:28:50.874][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:28:50.874][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:28:50.874][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:28:50.874][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:28:53.844][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:28:54.550][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.702] sec.
+[23:35:45.949][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:35:45.949][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:35:45.949][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:35:45.949][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:35:45.949][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:35:45.949][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:35:50.023][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:35:50.540][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.516] sec.
+[23:36:41.952][info] [#0:script/service/service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 41.328 MB
+        # 00 : 40.739 MB
+        # 01 : 0.052 MB
+        # 02 : 0.136 MB
+        # 03 : 0.319 MB
+        # 04 : 0.082 MB
+    --------------- Coroutine ---------------
+        Total:     3
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      3
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[23:37:02.011][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:02.012][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:02.013][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:02.013][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:02.013][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:02.013][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:05.966][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:37:06.460][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.494] sec.
+[23:37:28.025][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:28.036][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:28.041][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:28.043][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.006] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:28.043][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:28.043][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:37:30.879][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:37:31.513][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.632] sec.
+[23:38:19.024][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:19.024][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:19.024][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:19.024][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:19.024][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:19.024][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:22.414][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:38:22.960][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.546] sec.
+[23:38:39.073][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:39.073][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:39.074][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:39.074][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:39.074][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:39.074][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:38:43.099][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:38:43.756][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.648] sec.
+[23:39:38.017][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:38.018][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:38.019][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:38.019][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:38.019][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:38.019][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:41.639][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:39:42.147][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.508] sec.
+[23:39:50.099][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:50.100][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:50.100][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:50.101][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.001] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:50.101][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:50.101][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:39:53.029][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:39:53.570][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.534] sec.
+[23:40:09.084][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:09.085][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:09.085][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:09.086][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:09.086][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:09.086][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:12.131][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:40:12.657][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.526] sec.
+[23:40:14.082][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:14.082][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:14.082][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:14.082][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:14.082][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:14.082][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:17.437][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:40:17.969][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.531] sec.
+[23:40:26.103][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:26.104][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:26.104][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:26.104][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:26.104][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:26.104][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:29.238][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:40:29.767][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.529] sec.
+[23:40:32.056][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:32.056][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:32.056][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:32.056][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:32.056][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:32.056][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:40:34.942][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:40:35.427][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.485] sec.
+[23:45:48.180][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:45:48.182][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:45:48.182][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:45:48.182][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:45:48.182][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:45:48.182][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:45:51.797][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:45:52.319][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.522] sec.
+[23:46:10.282][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:46:10.283][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:46:10.283][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:46:10.283][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:46:10.283][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:46:10.283][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:46:14.290][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:46:14.778][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.488] sec.
+[23:46:42.207][info] [#0:script/service/service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 41.306 MB
+        # 00 : 40.717 MB
+        # 01 : 0.052 MB
+        # 02 : 0.136 MB
+        # 03 : 0.319 MB
+        # 04 : 0.082 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[23:51:55.412][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:51:55.412][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:51:55.412][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:51:55.412][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:51:55.412][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:51:55.412][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:51:59.493][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:52:00.017][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.521] sec.
+[23:52:02.480][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:02.480][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:02.480][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:02.480][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:02.480][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:02.480][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:06.034][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:52:23.489][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:23.491][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:23.491][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:23.491][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:23.491][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:23.491][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:26.304][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:52:26.925][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.617] sec.
+[23:52:45.438][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:45.439][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:45.439][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:45.439][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:45.439][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:45.439][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:52:48.413][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:52:49.023][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.606] sec.
+[23:54:34.465][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:54:34.465][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:54:34.465][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:54:34.465][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:54:34.465][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:54:34.465][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:54:38.568][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:54:39.055][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.486] sec.
+[23:54:44.472][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/scene.lua
+[23:54:44.474][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:44.476][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:44.477][info] [#0:script/workspace/loading.lua:101]: Preload file at: file:///home/gustavo/Documents/lua/game/battlescene.lua , size = 0.292 KB
+[23:54:44.482][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.005] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:44.482][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:44.482][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:46.610][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:54:47.136][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.526] sec.
+[23:54:47.622][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:54:48.163][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.542] sec.
+[23:54:53.478][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:53.478][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:53.479][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:53.479][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.001] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:53.479][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:53.479][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:54:56.288][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:54:56.792][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.503] sec.
+[23:55:31.490][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:31.490][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:31.490][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:31.490][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:31.490][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:31.490][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:35.590][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:55:36.097][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.507] sec.
+[23:55:44.544][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:44.545][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:44.545][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:44.545][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:44.546][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:44.546][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:55:47.696][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:55:48.226][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.530] sec.
+[23:56:04.533][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:04.534][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:04.534][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:04.534][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:04.534][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:04.534][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:06.576][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:06.577][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:06.577][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:06.577][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:06.577][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:06.577][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:08.500][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:56:09.014][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.513] sec.
+[23:56:09.705][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:56:10.231][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.527] sec.
+[23:56:38.592][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:38.593][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:38.593][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:38.593][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:38.593][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:38.593][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:41.777][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:56:42.206][info] [#0:script/service/service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 49.732 MB
+        # 00 : 49.142 MB
+        # 01 : 0.052 MB
+        # 02 : 0.136 MB
+        # 03 : 0.319 MB
+        # 04 : 0.082 MB
+    --------------- Coroutine ---------------
+        Total:     30
+        Running:   0
+        Suspended: 3
+        Normal:    0
+        Dead:      27
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[23:56:44.579][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:44.580][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:44.580][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:44.580][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:44.580][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:44.580][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:56:47.317][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:56:47.903][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.585] sec.
+[23:56:57.565][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:56:57.565][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:56:57.566][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:56:57.566][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:56:57.566][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:56:57.566][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:57:00.419][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:57:00.999][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.580] sec.
+[23:57:25.728][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/character.lua
+[23:57:27.059][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/gustavo/Documents/lua/game/character.lua
+[23:57:27.609][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:57:27.610][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:57:27.610][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
+[23:57:27.610][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:57:27.610][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:57:27.610][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:57:31.625][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:57:32.274][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.644] sec.
+[23:57:58.557][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:57:58.558][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:57:58.558][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/main.lua
+[23:57:58.558][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:57:58.558][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/main.lua
+[23:57:58.558][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/main.lua
+[23:58:01.332][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:58:01.828][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.495] sec.
+[23:58:25.569][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:25.569][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:25.569][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:25.570][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.001] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:25.570][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:25.570][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:28.340][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:58:28.538][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:28.539][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:28.539][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:28.539][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:28.539][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:28.539][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/battlescene.lua
+[23:58:28.883][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.541] sec.
+[23:58:31.444][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:58:32.046][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.602] sec.
+[23:59:12.593][info] [#0:script/workspace/workspace.lua:284]: Scan files at:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:59:12.594][info] [#0:script/workspace/loading.lua:161]: Load files from disk:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:59:12.594][info] [#0:script/workspace/loading.lua:89]: Skip loaded file: file:///home/gustavo/Documents/lua/game/character.lua
+[23:59:12.594][info] [#0:script/workspace/loading.lua:173]: Loaded files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:59:12.594][info] [#0:script/workspace/loading.lua:182]: Compile files takes [0.000] sec: file:///home/gustavo/Documents/lua/game/character.lua
+[23:59:12.594][info] [#0:script/workspace/loading.lua:183]: Loaded finish:	file:///home/gustavo/Documents/lua/game/character.lua
+[23:59:16.547][info] [#0:script/provider/diagnostic.lua:557]: Diagnostics scope [file:///home/gustavo/Documents/lua/game], files count:[51]
+[23:59:17.142][info] [#0:script/provider/diagnostic.lua:574]: Diagnostics scope [file:///home/gustavo/Documents/lua/game] finished, takes [0.593] sec.

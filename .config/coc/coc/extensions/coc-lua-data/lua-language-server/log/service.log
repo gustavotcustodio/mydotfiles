@@ -1,9 +1,9 @@
-[13:49:14.982][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:66]: Lua Lsp startup, root: 	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server
-[13:49:14.982][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:67]: ROOT:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server
-[13:49:14.982][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: LOGPATH:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/log
-[13:49:14.982][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: METAPATH:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta
-[13:49:14.982][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: VERSION:	3.7.0
-[13:49:15.029][info] [#0:script/service/service.lua:144]: 
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:66]: Lua Lsp startup, root: 	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:67]: ROOT:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:68]: LOGPATH:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/log
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:69]: METAPATH:	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/meta
+[23:06:41.444][info] [#0:/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/main.lua:70]: VERSION:	3.7.0
+[23:06:41.478][info] [#0:script/service/service.lua:144]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.140 MB
@@ -25,7 +25,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[13:49:15.143][info] [#0:script/client.lua:657]: Client init	{
+[23:06:41.586][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     general = {
       markdown = {
@@ -308,17 +308,17 @@
     changeConfiguration = true
   },
   locale = "en_US",
-  processId = 635195,
-  rootPath = "/home/gustavo/Documents/lua",
-  rootUri = "file:///home/gustavo/Documents/lua",
+  processId = 221009,
+  rootPath = "/home/gustavo/Documents/lua/game",
+  rootUri = "file:///home/gustavo/Documents/lua/game",
   trace = "off",
-  workDoneToken = "479afaae-fee9-4e4e-8a17-57a5fe639f07",
+  workDoneToken = "d41d2dc0-edc7-4f4b-9ce7-83e8141b8618",
   workspaceFolders = { {
-      name = "lua",
-      uri = "file:///home/gustavo/Documents/lua"
+      name = "game",
+      uri = "file:///home/gustavo/Documents/lua/game"
     } }
 }
-[13:49:15.143][info] [#0:script/language.lua:137]: VSC language: en_US
-[13:49:15.143][info] [#0:script/language.lua:138]: LS  language: en-us
-[13:49:15.143][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/gustavo/Documents/lua
-[13:49:15.143][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_home_gustavo_Documents_lua.log
+[23:06:41.587][info] [#0:script/language.lua:137]: VSC language: en_US
+[23:06:41.587][info] [#0:script/language.lua:138]: LS  language: en-us
+[23:06:41.587][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/gustavo/Documents/lua/game
+[23:06:41.587][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/gustavo/.config/coc/extensions/coc-lua-data/lua-language-server/log/file_home_gustavo_Documents_lua_game.log
