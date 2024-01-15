@@ -43,6 +43,9 @@ Plug 'lervag/vimtex'
 Plug 'godlygeek/tabular'
 " Gruvbox
 Plug 'morhetz/gruvbox'
+Plug 'folke/tokyonight.nvim'
+Plug 'maxmx03/solarized.nvim'
+Plug 'relastle/bluewery.vim'
 Plug 'preservim/vimux'
 " Auto pairs
 " Plug 'jiangmiao/auto-pairs'
@@ -118,8 +121,8 @@ let g:UltiSnipsJumpBackwardTrigger="<C-k>"
 
 hi SpellBad cterm=underline
 
-colorscheme gruvbox
-set bg=dark  " light
+" set bg=dark  " light
+colorscheme tokyonight
 
 " change cursor shape when changing from normal to insert and vice versa
 " fix problem with tmux and st terminal

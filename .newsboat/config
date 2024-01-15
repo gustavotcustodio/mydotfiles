@@ -2,6 +2,6 @@
 save-path "~/rss_newsboat/"
 macro m set browser "mpv --save-position-on-quit %u"; open-in-browser ; set browser "w3m %u"
 macro d set browser "youtube-dl -f best %u"; open-in-browser ; set browser "w3m %u"
-macro b set browser "firefox %u"; open-in-browser
+macro b set browser "brave %u"; open-in-browser
 macro q set browser "qutebrowser %u"; open-in-browser
 confirm-mark-feed-read no

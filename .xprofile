@@ -11,3 +11,4 @@ udiskie &
 dwmblocks &
 wal -R -q
 syncthing --no-browser &
+xset b off
