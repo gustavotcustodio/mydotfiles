@@ -121,8 +121,14 @@ let g:UltiSnipsJumpBackwardTrigger="<C-k>"
 
 hi SpellBad cterm=underline
 
-" set bg=dark  " light
-colorscheme tokyonight
+if has('nvim')
+    " colorscheme tokyonight
+    colorscheme gruvbox
+    set bg=dark  " light
+else
+    colorscheme gruvbox
+    set bg=dark  " light
+endif
 
 " change cursor shape when changing from normal to insert and vice versa
 " fix problem with tmux and st terminal

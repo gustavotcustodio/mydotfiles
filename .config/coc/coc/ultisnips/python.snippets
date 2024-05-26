@@ -1,0 +1,154 @@
+# A valid snippet should starts with:
+#
+#		snippet trigger_word [ "description" [ options ] ]
+#
+# and end with:
+#
+#		endsnippet
+#
+# Snippet options:
+#
+#		b - Beginning of line.
+#		i - In-word expansion.
+#		w - Word boundary.
+#		r - Regular expression
+#		e - Custom context snippet
+#		A - Snippet will be triggered automatically, when condition matches.
+#
+# Basic example:
+#
+#		snippet emitter "emitter properties" b
+#		private readonly ${1} = new Emitter<$2>()
+#		public readonly ${1/^_(.*)/$1/}: Event<$2> = this.$1.event
+#		endsnippet
+#
+# Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
+
+# snippet uamslide "Create a slide" b
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# \begin{frame}[fragile]{$1}
+# 	$2
+# \end{frame}
+# endsnippet
+
+snippet "uamslides(\d+)" "Creates a number of new slides" r
+`!p 
+n_slides = int(match.group(1))
+for i in range(0, n_slides):
+	snip.rv += 75 * "%" + "\n\\begin{frame}[fragile]{}\n\\end{frame}\n\n"`
+endsnippet
+
+snippet "easy" "Itemize" r
+\begin{easylist}[itemize]
+	@ $0
+\end{easylist}
+endsnippet
+
+snippet "bi" "Itemize" r
+\bi
+@ $0
+\ei
+endsnippet
+
+snippet "be" "Enumerate" r
+\be
+@ $0
+\ee
+endsnippet
+
+snippet "fimage" "Create a floating image" r
+\\fimage{${1:0}}{${2:0}}{\\includegraphics[scale=${3:1}]{${4:imagem}}}
+endsnippet
+
+snippet "gf" "Create green text" r
+\\textgf{$1}
+endsnippet
+
+snippet "tmk" "Create tikzmark" r
+\\tikzmark{$1}
+endsnippet
+
+snippet "lst" "Create listing" r
+\\begin{lstlisting}[language=${1:language}]
+$2
+\\end{lstlisting}
+endsnippet
+
+snippet "balloon" "Create tikz balloon" r
+\\balloon[xshift=0, yshift=0, x=0, y=0, follow=$1, font=\scriptsize]{$2}
+endsnippet
+
+snippet "lstp" "lstinputlisting to import a code file" r
+\\lstinputlisting[language=${1:language}]{$2}
+endsnippet
+
+snippet "lstl" "lstinline" r
+\\lstinline[language=${1:language}]{$2}
+endsnippet
+
+snippet "doublecol" "Create slide splitted in two columns" r
+\\Activate\\doublecolumn[0.5]{
+	${1:coluna1}
+}{% ---------
+	${2:coluna2}
+}\\Deactivate
+endsnippet
+
+snippet "resize" "resizebox" r
+\\resizebox{$1\\textheight}{!}{
+	$2
+}
+endsnippet
+
+
+# def create_tabular(snip):
+# 	# retrieving singlee line from current string and treat it like tabstops
+# 	# count
+# 	placeholders_amount = int(snip.buffer[snip.line].strip())
+# 
+# 	# erase current line
+# 	snip.buffer[snip.line] = ''
+# 
+# 	anon_snippet_body = '\\begin{tabular}{'
+# 	# create anonymous snippet with expected content and number of tabstops
+# 	anon_snippet_body += ''.join(['c' for i in range(placeholders_amount)])
+# 	anon_snippet_body += '}\n\\toprule\n$1\n\\bottomrule\n\end{tabular}'
+# 
+# 	# expand anonymous snippet
+# 	snip.expand_anon(anon_snippet_body)
+# 
+# endglobal
+# 
+# post_jump "create_tabular(snip)"
+# snippet "tenv(\d+)" "latex tabular environment" ir
+# `!p snip.rv = match.group(1)`
+# endsnippet
+
+snippet "plot" "Itemize" r
+import matplotlib.pyplot as plt
+
+plt.plot($1)
+plt.figure(figsize=($2))
+plt.title($3)
+plt.xlabel($4)
+plt.ylabel($5)
+endsnippet
+
+
+snippet "mlmodel" "Split dataset in training and test and train model" r
+from sklearn.model_selection import train_test_split
+
+$1 = $2
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=$3)
+
+$1.fit(X_train, y_train)
+y_pred = $1.predict(X_test)
+endsnippet
+
+
+snippet "jsonsave" "Save a json file" r
+json_str = json.dumps($1)
+
+with open($2, "w") as f:
+	f.write(json_str)
+endsnippet
